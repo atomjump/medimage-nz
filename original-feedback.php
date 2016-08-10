@@ -40,10 +40,12 @@
 
 
 <body>
-      <a class="comment-open" id="this-comment-open" href="javascript:" data-uniquefeedbackid="ajps_medimage" data-mymachineuser="111.69.60.34:8"  >
-			    <div id="logo-wrapper" class="looplogo">
-				      <img class="saver-hideable" src="images/medimage-www-logo.svg" id="bg" alt="">
-			    </div>
-			</a>
+      	<a class="comment-open" id="this-comment-open" href="javascript:" data-uniquefeedbackid="ajps_medimage" data-mymachineuser="111.69.60.34:8"  >
+	    <div id="logo-wrapper" class="looplogo">
+		    <img class="saver-hideable" src="images/medimage-www-logo.svg" id="bg" alt="">
+	    </div>
+	</a>
+	<div id="comment-holder"></div><!-- holds the popup comments. Can be anywhere between the <body> tags -->
+	
 <body>
 </html>
