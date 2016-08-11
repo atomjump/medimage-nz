@@ -464,13 +464,12 @@
 			 			 echo 'https://itunes.apple.com/us/app/atomjump-medimage/id1087679463?ls=1&mt=8';
 			 			break;
 			 			default:
-			 				echo 'medimage.php';
+			 				echo 'guide.php';
 			 			break;
 			 	} ?>" title="Download Software"><img  border="0" src="images/loopdownload.svg" width="80" height="80"></a>
 			</div>
 		
-		<!--<br/><br/><br/>
-    	<br/><br/><br/>	-->
+
 
     	<div class="container-fluid darkoverlay" id="mydarkoverlay">
    	  
