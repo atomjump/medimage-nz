@@ -34,8 +34,8 @@
   <head>
   	    <meta charset="utf-8">
 		 <meta name="viewport" content="width=device-width, user-scalable=no">
-		 <title>Medimage open messaging - provided by AtomJump Loop</title>
-		 <meta name="description" content="Open source instant messaging client/server for any mobile or desktop device.">
+		 <title>>MedImage App - phone camera to PC directly</title>
+		 <meta name="description" content="Photograph and catalogue your patient's health issues with your phone, and send them directly to your PC.">
 
 		 <meta name="keywords" content="Instant Messaging, Live Chat, Customer Chat, Open Source Messaging, Open Messaging">
 
