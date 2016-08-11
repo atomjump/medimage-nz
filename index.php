@@ -34,7 +34,7 @@
   <head>
   	    <meta charset="utf-8">
 		 <meta name="viewport" content="width=device-width, user-scalable=no">
-		 <title>>MedImage App - phone camera to PC directly</title>
+		 <title>MedImage App - send photos directly from your phone camera to your PC</title>
 		 <meta name="description" content="Photograph and catalogue your patient's health issues with your phone, and send them directly to your PC.">
 
 		 <meta name="keywords" content="Instant Messaging, Live Chat, Customer Chat, Open Source Messaging, Open Messaging">
