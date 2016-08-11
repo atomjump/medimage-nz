@@ -466,7 +466,7 @@
 			 			default:
 			 				echo 'guide.php';
 			 			break;
-			 	} ?>" title="Download Software"><img  border="0" src="images/loopdownload.svg" width="80" height="80"></a>
+			 	} ?>" title="Download Software"><img border="0" src="images/loopdownload.svg" width="80" height="80"><?php if($platform == 'windows') { ?><img id="download-tip" border="0" src="images/download-tip.png" width="261" height="150" style="position: relative; top: -70px"><?php } ?></a>
 			</div>
 		
 
