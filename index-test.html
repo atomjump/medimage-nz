@@ -1,34 +1,3 @@
-<?php
-    function client_platform() {
-		 if ((isset($_SERVER['HTTP_USER_AGENT'])) && (preg_match('/windows/i', $_SERVER['HTTP_USER_AGENT']))) {
-			return 'windows';
-			/* Note: this will miss < Win95 - they would not support 64-bit apps anyway */
-		 }
-		 if ((isset($_SERVER['HTTP_USER_AGENT'])) && (preg_match('/android/i', $_SERVER['HTTP_USER_AGENT']))) {
-		 	return 'android';
-		 }
- 
- 
-   		if ((isset($_SERVER['HTTP_USER_AGENT'])) && (preg_match('/iphone/i', $_SERVER['HTTP_USER_AGENT']))) {
-		 	return 'ios';
-		 }
-		 
-   		if ((isset($_SERVER['HTTP_USER_AGENT'])) && (preg_match('/ipad/i', $_SERVER['HTTP_USER_AGENT']))) {
-		 	return 'ios';
-		}
-		return 'other';
-    }
-
-
-	//Ensure no caching
-	header("Cache-Control: no-store, no-cache, must-revalidate"); // HTTP/1.1
-	header("Cache-Control: post-check=0, pre-check=0", false);
-	header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
-	header("Pragma: no-cache"); // HTTP/1.0
-	header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
-
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -281,7 +250,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; <?php echo date('Y'); ?> AtomJump Ltd. New Zealand. All Rights Reserved.</p>
+            <p>&copy; 2016 AtomJump Ltd. New Zealand. All Rights Reserved.</p>
             <ul class="list-inline">
                 <li>
                     <a href="guide.php#privacy">Privacy</a>
