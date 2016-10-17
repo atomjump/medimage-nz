@@ -281,7 +281,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2016 AtomJump Ltd. New Zealand. All Rights Reserved.</p>
+            <p>&copy; <?php echo date('Y'); ?> AtomJump Ltd. New Zealand. All Rights Reserved.</p>
             <ul class="list-inline">
                 <li>
                     <a href="guide.php#privacy">Privacy</a>
