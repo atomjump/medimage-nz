@@ -160,7 +160,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <h2 class="section-heading">"This is simply amazing. I have been looking for something like this for years." </h2>
+                    <h2 class="section-heading">“This is simply amazing. I have been looking for something like this for years.” </h2>
                     <p>Rob Seddon-Smith, New Zealand GP</p>
                     <p>Our app is available on any mobile device. Download now to get started!</p>
                     <div class="badges">
